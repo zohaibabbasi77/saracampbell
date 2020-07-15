@@ -1,0 +1,12 @@
+<div class="align-center">
+    <div class="sub-title align-center">SHOP NEW ARRIVALS</div>
+    <h2 class="page-heading">Build Your Fall Wardrobe</h2> 
+</div>
+
+<ul class="productGrid productGrid--maxCol{{ columns }}">
+    {{#each products}}
+        <li class="product">
+            {{>components/products/card theme_settings=../theme_settings customer=../customer show_rating=../settings.show_product_rating}}
+        </li>
+    {{/each}}
+</ul>

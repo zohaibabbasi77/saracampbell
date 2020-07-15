@@ -1,0 +1,88 @@
+<ul class="productGrid productGrid--maxCol{{ columns }}"{{#if settings.data_tag_enabled}} data-list-name="Related Products" {{/if}}>
+    {{#each products}}
+    <li class="product">
+        {{>components/products/card settings=../settings theme_settings=../theme_settings customer=../customer event="list" position=(add @index 1)}}
+    </li>
+    {{/each}}
+</ul>
+</div>
+
+<div class="brand-message">
+	<div class="container">
+		<div class="head align-center">
+			<div class="sub-title">brand message</div>
+			<h2 class="page-title">Lorem Ipsum Dolor Sit Amet</h2>
+		</div>
+		<div class="col-1-4">
+			<div class="icon"><img class="__mce_add_custom__" title="" src="{{cdn 'assets/img/brand01.png'}}" alt=""></div>
+			<p>COMMITTED TO GIVING<br>BACK TO CHARITY</p>
+		</div>
+		<div class="col-1-4">
+			<div class="icon"><img class="__mce_add_custom__" title="" src="{{cdn 'assets/img/brand02.png'}}" alt=""></div>
+			<p>PRODUCTS PROUDLY<br>MADE IN THE USA</p>
+		</div>
+		<div class="col-1-4">
+			<div class="icon"><img class="__mce_add_custom__" title="" src="{{cdn 'assets/img/brand03.png'}}" alt=""></div>
+			<p>PERSONALIZED SHOPPING<br>EXPERIENCE</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<div class="clear"></div>
+
+<div class="container">
+	<div class="reviews-section">
+	<div class="head align-center">
+			<div class="sub-title">REVIEWS</div>
+			<h2 class="page-title">Lorem Ipsum Dolor Sit Amet</h2>
+		</div>
+	<div class="reviews-row">
+		
+		<div class="review-box">
+			<div class="review-rating"><img class="__mce_add_custom__" title="" src="{{cdn 'assets/img/review-ratings.png'}}" alt=""></div>
+			<div class="review-detail"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci eu lobortis elementum nibh tellus. Convallis aenean et tortor at risus viverra adipiscing at in. Nunc aliquet bibendum enim facilisis gravida. Nisl suscipit adipiscing bibendum est ultricies integer quis.</p></div>
+			<div class="review-auther">
+				<h3>Jane Doe</h3>
+				<p>4 Weeks Ago</p>
+			</div>
+		</div>
+
+		<div class="review-box">
+			<div class="review-rating"><img class="__mce_add_custom__" title="" src="{{cdn 'assets/img/review-ratings.png'}}" alt=""></div>
+			<div class="review-detail"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci eu lobortis elementum nibh tellus. Convallis aenean et tortor at risus viverra adipiscing at in. Nunc aliquet bibendum enim facilisis gravida. Nisl suscipit adipiscing bibendum est ultricies integer quis.</p></div>
+			<div class="review-auther">
+				<h3>Jane Doe</h3>
+				<p>4 Weeks Ago</p>
+			</div>
+		</div>
+
+		<div class="review-box">
+			<div class="review-rating"><img class="__mce_add_custom__" title="" src="{{cdn 'assets/img/review-ratings.png'}}" alt=""></div>
+			<div class="review-detail"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci eu lobortis elementum nibh tellus. Convallis aenean et tortor at risus viverra adipiscing at in. Nunc aliquet bibendum enim facilisis gravida. Nisl suscipit adipiscing bibendum est ultricies integer quis.</p></div>
+			<div class="review-auther">
+				<h3>Jane Doe</h3>
+				<p>4 Weeks Ago</p>
+			</div>
+		</div>
+
+		<div class="review-box">
+			<div class="review-rating"><img class="__mce_add_custom__" title="" src="{{cdn 'assets/img/review-ratings.png'}}" alt=""></div>
+			<div class="review-detail"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci eu lobortis elementum nibh tellus. Convallis aenean et tortor at risus viverra adipiscing at in. Nunc aliquet bibendum enim facilisis gravida. Nisl suscipit adipiscing bibendum est ultricies integer quis.</p></div>
+			<div class="review-auther">
+				<h3>Jane Doe</h3>
+				<p>4 Weeks Ago</p>
+			</div>
+		</div>
+
+		<div class="review-box">
+			<div class="review-rating"><img class="__mce_add_custom__" title="" src="{{cdn 'assets/img/review-ratings.png'}}" alt=""></div>
+			<div class="review-detail"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci eu lobortis elementum nibh tellus. Convallis aenean et tortor at risus viverra adipiscing at in. Nunc aliquet bibendum enim facilisis gravida. Nisl suscipit adipiscing bibendum est ultricies integer quis.</p></div>
+			<div class="review-auther">
+				<h3>Jane Doe</h3>
+				<p>4 Weeks Ago</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div class="clear"></div>
